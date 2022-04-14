@@ -35,6 +35,7 @@ export default function Dictionary(props) {
     return (
       <div className="dictionary">
         <section>
+          <h1>What are you looking for?</h1>
           <form onSubmit={HandleSubmit}>
             <input type="search" onChange={HandleKeywordChange} />
           </form>
